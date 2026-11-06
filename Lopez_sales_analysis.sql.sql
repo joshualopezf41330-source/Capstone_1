@@ -11,3 +11,4 @@ FROM store_sales ss
 INNER JOIN store_locations sl
     ON ss.Store_ID = sl.StoreId
 WHERE sl.State = 'Texas';
+
